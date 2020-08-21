@@ -1,8 +1,40 @@
-# Note-Taker-Express
+# [Note-Taker-Express](https://secure-sea-20737.herokuapp.com/)
 
 ## Description
-Application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+Having trouble keeping track of all the tasks you were supposed to complete? How about remembering your grocery list? Then look no further than Notepad! Notepad is a full-stack note-taking application, built with Express.js, that will store your thoughts and to-do's, so that your brain doesn't have to. Users are able to save, view, and delete notes at any time by accessing and writing data to a JSON file. Your brain space is precious, so give your mind a break, and organize your thoughts with Notepad!
+
+![gif]()
+
+## Table of Contents
+* [Technologies](#technologies)
+* [Usage](#usage)
+* [Finished Product](#finished-product)
+* [Questions](#questions)
+
+## Technologies
+* JavaScript
+* Node.js
+* Express.js
+* Heroku
+* HTML
+
 
 ## Usage
-As a user I would like to work with my notes. I want to create a new one and save it and also delete once it's no longer needed.
+* Navigate to the [deployed Heroku App](https://secure-sea-20737.herokuapp.com/).
+* Click the "Get Started" button.
+* Add a note title and body in the provided text box.
+* Save your note by clicking the save icon.
+* View a list of your saved notes on the left hand side.
+* Click on any note in the list to view your full note.
+* Create a new note at any time by clicking the pencil button.
+* Delete any note by pressing it's "X" icon.
 
+## Finished Product
+View deployed Heroku app [here](https://secure-sea-20737.herokuapp.com/).
+
+
+## Questions
+​
+If you have any questions about the repo, please contact me:
+
+On GitHub: [sdemkovich](https://github.com/sdemkovich) 
