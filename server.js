@@ -1,9 +1,6 @@
 var express = require("express");
-// var path = require('path');
 var fs = require('fs');
 var bodyParser = require('body-parser')
-// const data = require('./db/db.json')
-// const util = require('util')
 
 // Set the port of our application
 // process.env.PORT lets the port be set by Heroku
@@ -20,29 +17,6 @@ app.use(bodyParser.urlencoded({
 // require route modules
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
-
-// app.get('/notes', function(req, res) {
-//     res.sendFile(path.join(__dirname + '/public/notes.html'));
-// });
-
-// app.get("/api/notes", function(req, res) {
-//   res.send(data);
-
-// });
-
-// app.post("/api/notes", function(req, res) {
-//   console.log(data)
-//   data.push(req.body)
-//   console.log(data)
-//   res.send(data);
-// });
-
-// app.delete("/api/notes/:id", function(req, res) {
-//   console.log("id is " + req.params.id);
-//   data.splice(req.params.id,1)
-//   console.log(data)
-//   res.send(data);
-// });
 
 app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/index.html'));
